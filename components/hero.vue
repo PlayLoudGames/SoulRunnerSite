@@ -53,7 +53,6 @@ a {
   transition-duration: .25s;
   grid-row: 4/5;
 }
-a:visited, a:focus, a:active{color: white;}
 a:hover{
   
   box-shadow: inset 0 0 12px 0 #047C86;

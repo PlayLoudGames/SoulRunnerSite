@@ -4,6 +4,7 @@
 <template>
   <div>
     <Hero />
+    
     <section id="buy">
       <p>Lorem ipsum sic dimitibus elatoribus laudone.</p>
       <p>Lorem ipsum sic dimitibus elatoribus laudone.</p>
