@@ -4,7 +4,7 @@
 <template>
   <div>
     <Hero />
-    
+    <Trailer />
     <section id="buy">
       <p>Lorem ipsum sic dimitibus elatoribus laudone.</p>
       <p>Lorem ipsum sic dimitibus elatoribus laudone.</p>

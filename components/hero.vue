@@ -20,6 +20,7 @@ section {
   
   background-image: url(../images/hero.png);
   background-position: center -100px;
+  background-repeat: no-repeat;
   object-fit: contain;
 }
 
