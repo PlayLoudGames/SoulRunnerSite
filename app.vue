@@ -24,7 +24,7 @@ body {
   margin: 0px;
 }
 
-a:visited, a:hover a:focus, a:active{color: white;}
+a:visited, a:hover a:focus, a:active,a{color: white;}
 * {
   margin: 0;
   scroll-behavior: smooth;
