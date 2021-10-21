@@ -62,4 +62,9 @@ a:hover{
 }
 .left{justify-self: right;}
 .right{justify-self: left;}
+@media screen and (min-width:500px) {
+  h1, h2{grid-column: 1/2;}
+  h2{left:5rem;}
+  
+}
 </style>
