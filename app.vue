@@ -5,33 +5,10 @@
   <div>
     <Hero />
     <Trailer />
-    <section id="buy">
-      <p>Lorem ipsum sic dimitibus elatoribus laudone.</p>
-      <p>Lorem ipsum sic dimitibus elatoribus laudone.</p>
-      <p>Lorem ipsum sic dimitibus elatoribus laudone.</p>
-
-      <a href=""> <img src="/images/epic-games-icon.jpg" /></a>
-
-      <a href=""> <img src="/images/indiedb-icon.png" /></a>
-
-      <a href=""> <img src="/images/steam-icon.png" /></a>
-
-      <div>
-        Brought to you by PlayLoudGames. <img src="/images/plg-icon.png" />
-      </div>
-    </section>
+    <Buy />
   </div>
 </template>
 <style scoped>
-img {
-  height: 100px;
-  background-color: white;
-  object-fit: contain;
-}
-section {
-  background-color: black;
-  height: 100vh;
-}
 *,
 *:visited,
 *:hover {
@@ -53,4 +30,5 @@ a:visited, a:hover a:focus, a:active{color: white;}
   scroll-behavior: smooth;
   font-family: Roboto, sans-serif;
 }
+html{overflow-x: hidden;}
 </style>

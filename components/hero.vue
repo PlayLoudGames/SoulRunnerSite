@@ -44,12 +44,12 @@ a {
   justify-self: center;
   text-align: center;
   border: 4px solid white;
-  width: 60%;
-  max-width: 175px;
   background-color: black;
   text-decoration: none;
   height: 40px;
   padding: 5px;
+  width: 60%;
+  max-width: 175px;
   box-shadow: inset 0 0 15px 0 #047C86;
   transition-duration: .25s;
   grid-row: 4/5;
