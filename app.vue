@@ -1,11 +1,13 @@
-<script>
+<script setup>
+import HelloWorld from './README.md'
 </script>
 
 <template>
   <div>
-    <Hero />
+    <HelloWorld />
+    <!--<Hero />
     <Trailer />
-    <Buy />
+    <Buy />-->
   </div>
 </template>
 <style scoped>
