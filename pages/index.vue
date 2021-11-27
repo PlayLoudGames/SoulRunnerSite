@@ -1,13 +1,14 @@
-<script setup>
-import HelloWorld from './README.md'
+<script lang="ts" setup>
+import json from '../public/data.json'
+    console.log(json);  
 </script>
 
 <template>
   <div>
-    <HelloWorld />
-    <!--<Hero />
+  <div>{{json}}</div>
+  <Comp /><Hero :title="json.title" :subTitle="json.subTitle" />
     <Trailer />
-    <Buy />-->
+    <Buy />
   </div>
 </template>
 <style scoped>

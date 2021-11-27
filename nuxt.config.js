@@ -1,7 +1,5 @@
 import { defineNuxtConfig } from 'nuxt3'
-import Vue from '@vitejs/plugin-vue'
 
-import Markdown from 'vite-plugin-md'
 export default defineNuxtConfig({
     head: {
       title: 'my website title',
@@ -15,10 +13,6 @@ export default defineNuxtConfig({
         }
       ],
     },
-    vite: {
-      plugins: [Vue({
-        include: [/\.vue$/, /\.md$/], // <--
-      }),
-        Markdown()]
-    }
+    target: "static",
+    buildModules: ["nuxt-mdx"]
 })

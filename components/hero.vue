@@ -1,7 +1,17 @@
+<script setup >
+const props = defineProps({
+  title: {
+    type: String,
+  },
+  subTitle: {
+    type: String,
+  }
+});
+  </script>
 <template>
   <section>
-    <h1>Soul Runner</h1>
-    <h2>The Modern Speedruner</h2>
+    <h1>{{props.title}}</h1>
+    <h2>{{props.subTitle}}</h2>
 
     <a class="left" href="#buy">Buy</a>
     <a class="right" href="#trailer">Trailer</a>
