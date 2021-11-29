@@ -21,4 +21,5 @@ collections:
       - { label: 'Youtube embed', name: 'youtubeEmbed', widget: 'string' }
       - { label: 'Video description', name: 'videoDescription', widget: 'markdown' }
       - { label: 'Call to Action', name: 'callToAction', widget: 'string'}
-      - { label: 'Aspirational Text', name: 'aspirationalText1', widget: 'string'}
+      - { label: 'Aspirational Text 1', name: 'aspirationalText1', widget: 'string'}
+       - { label: 'Aspirational Text 2', name: 'aspirationalText2', widget: 'string'}
