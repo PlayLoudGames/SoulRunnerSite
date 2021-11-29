@@ -17,6 +17,8 @@ collections:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Sub-title', name: 'subTitle', widget: 'string' }
+      - { label: 'Youtube embed', name: 'youtubeEmbed', widget: 'string' }
+      - { label: 'Video description', name: 'videoDescription', widget: 'markdown' }
+      - { label: 'Call to Action', name: 'callToAction', widget: 'string'}
+      - { label: 'Aspirational Text', name: 'aspirationalText1', widget: 'string'}
