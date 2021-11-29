@@ -14,5 +14,4 @@ export default defineNuxtConfig({
       ],
     },
     target: "static",
-    buildModules: ["nuxt-mdx"]
 })
