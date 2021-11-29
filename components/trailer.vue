@@ -11,7 +11,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <section id="trailer">{{props.url}}
+  <section id="trailer">
     <!--thanks to enter the gungeon for iframe config -->
     <div class="iframe-container">
       <iframe
