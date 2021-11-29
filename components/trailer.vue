@@ -1,13 +1,21 @@
 
 <script setup>
+const props = defineProps({
+  url: {
+    type: String,
+  },
+  videoDescription: {
+    type: String,
+  }
+});
 </script>
 
 <template>
-  <section id="trailer">
+  <section id="trailer">{{props.url}}
     <!--thanks to enter the gungeon for iframe config -->
     <div class="iframe-container">
       <iframe
-        src="https://www.youtube.com/embed/cYuMRCZm4EU"
+        :src= props.url
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -15,9 +23,7 @@
       ></iframe>
       
       <p>
-        Lorem ipsum sic dimitibus elatoribus laudone. In sic illo fillia tua.
-        Lacrimone el, delli dartum. Ice labilenia in illo dixerant. Sicut
-        navigato in nomen tuam.
+       {{props.videoDescription}}
       </p>
     </div>
   </section>

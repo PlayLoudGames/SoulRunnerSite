@@ -1,13 +1,11 @@
 <script lang="ts" setup>
 import json from '../public/data.json'
-    console.log(json);  
+const video = `https://www.youtube.com/embed/${json.youtubeLink.slice(17)}`;
 </script>
 
 <template>
-  <div>
-  <div>{{json}}</div>
-  <Comp /><Hero :title="json.title" :subTitle="json.subTitle" />
-    <Trailer />
+  <div><Hero :title="json.title" :subTitle="json.subTitle" />
+    <Trailer :url="video" :videoDescription="json.videoDescription"/>
     <Buy />
   </div>
 </template>

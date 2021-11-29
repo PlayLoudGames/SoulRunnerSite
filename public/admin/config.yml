@@ -18,7 +18,7 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Sub-title', name: 'subTitle', widget: 'string' }
-      - { label: 'Youtube embed', name: 'youtubeEmbed', widget: 'string' }
+      - { label: 'Youtube link', name: 'youtubeLink', widget: 'string' }
       - { label: 'Video description', name: 'videoDescription', widget: 'markdown' }
       - { label: 'Call to Action', name: 'callToAction', widget: 'string'}
       - { label: 'Aspirational Text 1', name: 'aspirationalText1', widget: 'string'}
