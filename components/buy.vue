@@ -5,7 +5,7 @@
 
       <a href=""> <img src="/images/epic-games-icon.jpg" /><span>></span></a>
 
-      <a href=""> <img src="images/indiedb-icon.png" /> <span>></span></a>
+      <a href=""> <img src="/images/indiedb-icon.png" /> <span>></span></a>
 
       <a href=""> <img src="/images/steam-icon.png" /> <span>></span></a>
 
