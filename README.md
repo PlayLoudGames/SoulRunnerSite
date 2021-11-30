@@ -1,29 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Soul Runner
+---
+Soul Runner marketing site
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+Summary
+---
+This repo contains the source code for the Soul Runner marketing site, and the netlify cms configuration.
 
-## Setup
+Local Development
+---
+To run this project locally  run `yarn install` then `yarn dev`
 
-Make sure to install the dependencies
-
-```bash
-yarn install
-```
-
-## Development
-
-Start the development server on http://localhost:3000
-
-```bash
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-yarn build
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+---
+Interested in Soul Runner? Email me at christopher.stevers1@gmail.com, and I'll let you know when it comes out!
