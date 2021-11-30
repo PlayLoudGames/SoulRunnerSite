@@ -12,5 +12,19 @@ export default defineNuxtConfig({
           content: 'my website description'
         }
       ],
+      //from https://stackoverflow.com/questions/57685076/some-css-will-not-load-in-production-mode-in-nuxt-js
+      link: [{
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      },
+      {
+        rel: 'preload',
+        as: 'style',
+        onload: "this.onload=null;this.rel='stylesheet'",
+        href: '/vue-select.css',
+      }
+
+    ]
     },
 })
