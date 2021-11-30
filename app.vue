@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import json from '../public/data.json'
+import json from './public/data.json'
 const video = `https://www.youtube.com/embed/${json.youtubeLink.slice(17)}`;
 </script>
 

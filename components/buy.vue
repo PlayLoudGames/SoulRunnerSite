@@ -5,14 +5,14 @@
 
       <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/images/epic-games-icon.jpg" /><span>></span></a>
 
-      <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/assets/images/indiedb-icon.png" /> <span>></span></a>
+      <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/images/indiedb-icon.png" /> <span>></span></a>
 
-      <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/public/images/steam-icon.png" /> <span>></span></a>
+      <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/images/steam-icon.png" /> <span>></span></a>
 
       <p class="to-left first">Ever Challenging</p>
       <p class="to-right">Austere Design</p>
       <div class="bottom">
-         <span>Brought to you by PlayLoudGames. </span> <img src="/images/plg-icon.png" />
+         <span>Brought to you by PlayLoudGames. </span> <img src="https://friendly-brown-1d77de.netlify.app/images/plg-icon.png" />
       
       </div>
     </section>
@@ -22,7 +22,8 @@ h2{
     
   font-size: 40px;
   justify-self: start;
-  padding: 21px 2rem ;
+  padding: 21px 2rem 0px;
+  width: 100%;
   grid-column: 1/4;}
 img {
   height: 32px;
@@ -80,6 +81,7 @@ a{
   @media screen and (min-width: 500px) {
       section{grid-template-rows: 100px repeat(3, 9rem)
       }
+      h2{left: 0px;}
       a{grid-column: 1/2;
       align-content: center;
       width: 200px;}
@@ -99,9 +101,5 @@ a{
       }
 
 .bottom{align-self: end;padding-bottom: 3rem}
-  h2{justify-self: center;
-  grid-column: 1/2;
-  position: relative;
-  left: -4rem;}
   } 
 </style>
