@@ -19,7 +19,7 @@ export default defineNuxtConfig({
         href: '/favicon.ico'
       },
       {
-        rel: 'preload',
+        rel: 'stylesheet',
         as: 'style',
         onload: "this.onload=null;this.rel='stylesheet'",
         href: '/vue-select.css',

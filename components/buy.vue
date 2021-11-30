@@ -5,9 +5,9 @@
 
       <a href=""> <img src="/images/epic-games-icon.jpg" /><span>></span></a>
 
-      <a href=""> <img src="/images/indiedb-icon.png" /> <span>></span></a>
+      <a href=""> <img src="/assets/images/indiedb-icon.png" /> <span>></span></a>
 
-      <a href=""> <img src="/images/steam-icon.png" /> <span>></span></a>
+      <a href=""> <img src="/public/images/steam-icon.png" /> <span>></span></a>
 
       <p class="to-left first">Ever Challenging</p>
       <p class="to-right">Austere Design</p>
