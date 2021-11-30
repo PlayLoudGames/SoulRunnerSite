@@ -3,16 +3,16 @@
     <section id="buy">
         <h2>Play Now</h2>
 
-      <a href=""> <img src="../public/images/epic-games-icon.jpg" /><span>></span></a>
+      <a href=""> <img src="/public/images/epic-games-icon.jpg" /><span>></span></a>
 
-      <a href=""> <img src="../public/images/indiedb-icon.png" /> <span>></span></a>
+      <a href=""> <img src="/public/images/indiedb-icon.png" /> <span>></span></a>
 
-      <a href=""> <img src="../public/images/steam-icon.png" /> <span>></span></a>
+      <a href=""> <img src="/public/images/steam-icon.png" /> <span>></span></a>
 
       <p class="to-left first">Ever Challenging</p>
       <p class="to-right">Austere Design</p>
       <div class="bottom">
-         <span>Brought to you by PlayLoudGames. </span> <img src="../public/images/plg-icon.png" />
+         <span>Brought to you by PlayLoudGames. </span> <img src="/public/images/plg-icon.png" />
       
       </div>
     </section>
