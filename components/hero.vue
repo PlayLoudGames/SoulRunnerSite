@@ -28,7 +28,7 @@ section {
   grid-gap: 2rem;
   justify-content: center;
   
-  background-image: url(/images/hero.png);
+  background-image: url(~/images/hero.png);
   background-position: center -100px;
   background-repeat: no-repeat;
   object-fit: contain;
