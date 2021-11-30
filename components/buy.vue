@@ -3,11 +3,11 @@
     <section id="buy">
         <h2>Play Now</h2>
 
-      <a href=""> <img src="/images/epic-games-icon.jpg" /><span>></span></a>
+      <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/images/epic-games-icon.jpg" /><span>></span></a>
 
-      <a href=""> <img src="/assets/images/indiedb-icon.png" /> <span>></span></a>
+      <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/assets/images/indiedb-icon.png" /> <span>></span></a>
 
-      <a href=""> <img src="/public/images/steam-icon.png" /> <span>></span></a>
+      <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/public/images/steam-icon.png" /> <span>></span></a>
 
       <p class="to-left first">Ever Challenging</p>
       <p class="to-right">Austere Design</p>
