@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import json from './public/data.json'
+import Contact from './components/contact.vue';
 const video = `https://www.youtube.com/embed/${json.youtubeLink.slice(17)}`;
 </script>
 
@@ -7,6 +8,12 @@ const video = `https://www.youtube.com/embed/${json.youtubeLink.slice(17)}`;
   <div><Hero :title="json.title" :subTitle="json.subTitle" />
     <Trailer :url="video" :videoDescription="json.videoDescription"/>
     <Buy />
+    <Contact />
+    
+      <div class="bottom">
+         <span>Brought to you by PlayLoudGames. </span> <img src="https://friendly-brown-1d77de.netlify.app/images/plg-icon.png" />
+      
+      </div>
   </div>
 </template>
 <style scoped>
@@ -32,4 +39,19 @@ a:visited, a:hover a:focus, a:active,a{color: white;}
   font-family: Roboto, sans-serif;
 }
 html{overflow-x: hidden;}
+
 </style>
+<style scoped>
+  div.bottom{grid-column: 1/4; 
+  justify-self: center;
+  background-color: black;
+  font-size: 1rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  text-align: center;
+  }
+  .bottom>img{height: 1rem;
+  object-fit: cover;
+  width: 2rem;}</style>

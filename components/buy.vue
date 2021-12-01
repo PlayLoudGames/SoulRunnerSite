@@ -11,10 +11,6 @@
 
       <p class="to-left first">Ever Challenging</p>
       <p class="to-right">Austere Design</p>
-      <div class="bottom">
-         <span>Brought to you by PlayLoudGames. </span> <img src="https://friendly-brown-1d77de.netlify.app/images/plg-icon.png" />
-      
-      </div>
     </section>
 </template>
 <style scoped>
@@ -22,7 +18,7 @@ h2{
     
   font-size: 40px;
   justify-self: start;
-  padding: 21px 2rem 0px;
+  padding: 20px 2rem 0px;
   width: 100%;
   grid-column: 1/4;}
 img {
@@ -34,7 +30,7 @@ img {
 section {
   background-color: black;
   display: grid;
-  height: 75vh;
+  height: 60vh;
   justify-content: stretch;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 100px;
@@ -50,9 +46,9 @@ a{
   align-items: center;
   align-content: center;
   text-align: center;
-  border: 4px solid black;
-  box-shadow: white 0px 0px 0px 2px;
-  padding: 2px;
+  border: 2px solid white;
+  box-shadow: inset black 0px 0px 0px 4px;
+  padding: 4px;
   background-color: white;
   color: black;
   text-decoration: none;
@@ -71,15 +67,9 @@ a{
   .to-right{position: relative;
   right: -1rem;
   grid-column: 1/4;}
-  div.bottom{grid-column: 1/4; 
-  justify-self: center;
-  background-color: black;
-  }
-  .bottom>img{height: 1rem;
-  object-fit: cover;
-  width: 1rem;}
   @media screen and (min-width: 500px) {
-      section{grid-template-rows: 100px repeat(3, 9rem)
+      section{grid-template-rows: 100px repeat(3, 9rem);
+      padding: 0px 1rem;
       }
       h2{left: 0px;}
       a{grid-column: 1/2;

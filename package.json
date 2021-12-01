@@ -6,7 +6,10 @@
     "start": "node .output/server/"
   },
   "devDependencies": {
-    "nuxt3": "latest",
-    "nuxt-mdx": "conradludgate/nuxt-mdx"
+    "nuxt-mdx": "conradludgate/nuxt-mdx",
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "emailjs-com": "^2.6.4"
   }
 }
