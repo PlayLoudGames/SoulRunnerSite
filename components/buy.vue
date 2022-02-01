@@ -1,16 +1,29 @@
+<script setup>
+const props = defineProps({
+    aspirationalText1: {
+        type: String,
+    },
+    aspirationalText2: {
+        type: String,
+    },
+    callToAction: {
+        type: String,
+    }
+})
+</script>
 <template>
     
     <section id="buy">
-        <h2>Play Now</h2>
+        <h2>{{callToAction}}</h2>
 
-      <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/images/epic-games-icon.jpg" /><span>></span></a>
+      <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/images/epic-games-icon.webo" /><span>></span></a>
 
-      <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/images/indiedb-icon.png" /> <span>></span></a>
+      <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/images/indiedb-icon.webp" /> <span>></span></a>
 
-      <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/images/steam-icon.png" /> <span>></span></a>
+      <a href=""> <img src="https://friendly-brown-1d77de.netlify.app/images/steam-icon.webp" /> <span>></span></a>
 
-      <p class="to-left first">Ever Challenging</p>
-      <p class="to-right">Austere Design</p>
+      <p class="to-left first">{{aspirationalText1}}</p>
+      <p class="to-right">{{aspirationalText1}}</p>
     </section>
 </template>
 <style scoped>

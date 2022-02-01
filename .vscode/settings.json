@@ -1,0 +1,5 @@
+{
+    "workbench.colorTheme": "Vue Theme",
+    "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
+    "javascript.format.semicolons": "remove"
+}

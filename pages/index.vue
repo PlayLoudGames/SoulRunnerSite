@@ -1,17 +1,16 @@
 <script lang="ts" setup>
-import json from './public/data.json'
-import Contact from './components/contact.vue';
-const video = `https://www.youtube.com/embed/${json.youtubeLink.slice(17)}`;
+import json from '../public/data.json'
+const importedJson= json;
 </script>
 
 <template>
-  <div><Hero :title="json.title" :subTitle="json.subTitle" />
-    <Trailer :url="video" :videoDescription="json.videoDescription"/>
+  <div><Hero :title="importedJson.title" :subTitle="json.subTitle" />
+    <Trailer :url="json.youtubeLink" :videoDescription="json.videoDescription"/>
     <Buy />
     <Contact />
     
       <div class="bottom">
-         <span>Brought to you by PlayLoudGames. </span> <img src="https://friendly-brown-1d77de.netlify.app/images/plg-icon.png" />
+         <span>Brought to you by PlayLoudGames. </span> <img src="https://friendly-brown-1d77de.netlify.app/images/plg-icon.webp" />
       
       </div>
   </div>

@@ -28,7 +28,7 @@ section {
   grid-gap: 2rem;
   justify-content: center;
   
-  background-image: url("/public/images/hero.png");
+  background-image: url("https://friendly-brown-1d77de.netlify.app/images/hero.webp");
   background-position: center -100px;
   background-repeat: no-repeat;
   object-fit: contain;
