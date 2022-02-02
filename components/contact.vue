@@ -1,6 +1,6 @@
 <template><section>
     <h2>Contact Us</h2>
-  <form ref="form" :submit.prevent="onSubmit" @submit.prevent="sendEmail">
+  <form ref="form"  @submit.prevent="sendEmail">
     <label>Name</label>
     <input type="text" name="user_name">
     <label>Email</label>

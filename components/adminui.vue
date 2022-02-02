@@ -1,5 +1,6 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from 'vue';
+
 const props = defineProps({
     json: {
         type: Object,
@@ -78,3 +79,15 @@ const toInputType = (type) => {
         <span>dsd</span>
     </div>
 </template>
+<script>
+export default {
+    head() {
+        return {
+            script: [
+                {
+                    src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'
+                }
+            ],
+        }
+    }}
+    </script>
