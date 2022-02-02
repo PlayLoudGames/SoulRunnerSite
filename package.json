@@ -11,9 +11,7 @@
   },
   "dependencies": {
     "emailjs-com": "^2.6.4",
-    "fs": "0.0.1-security",
     "netlify-identity-widget": "^1.9.2",
-    "nodegit": "^0.27.0",
     "path": "^0.12.7",
     "pusher-js": "^7.0.4"
   }
