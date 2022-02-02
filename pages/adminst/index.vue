@@ -2,7 +2,8 @@
 import json from "../../public/data.json"
 import Adminui from "../../components/adminui.vue";
 import netlifyIdentity from 'netlify-identity-widget'
-import { onMounted} from "vue"
+import { onMounted, ref} from "vue"
+const isAuthed=ref(false)
 onMounted(()=>{
 
 netlifyIdentity.init({ // defaults to document.body
@@ -38,7 +39,7 @@ netlifyIdentity.logout();
 </script>
 <template>
 
-    <div>
+    <div v-if="netlifyIdentiy.currentUser()===!null">
        <Adminui :json="json" />
     </div>
 </template>
